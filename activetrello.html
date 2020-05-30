@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>tralala</title>
+        <script src="https://kit.fontawesome.com/1c6361fb48.js" crossorigin="anonymous"></script>
+    
+        <script type="text/javascript">
+            // Get the modal
+            var modal = document.getElementById("myModal");
+            
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn1");
+            
+           
+            // When the user clicks the button, open the modal 
+            btn.onclick = function() {
+              modal.style.display = "block";
+            }
+            
+       
+            
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+            </script>
+        
+     
+    </head>
+    <style>
+      
+  body{
+            background-attachment: fixed;
+            overflow-x:scroll;
+            margin:0;
+            font-family:Times New Roman;
+            
+
+        }
+div
+{
+    height:50px;
+    width:100vh;
+    display:block;
+    margin:0;
+    padding:0;
+    background-attachment:fixed;
+    
+}
+    
+
+.one{
+background-color:dodgerblue;
+height:40px;
+width:100%;
+display:block;
+padding:5px;
+margin:0;
+position:fixed;
+flex-shrink:0;
+flex-wrap: nowrap;
+
+}
+.two
+{  
+    background-color:black;
+    display:block;
+    height:40px;
+    width:100%;
+    margin:0;
+    padding-top:15px;
+    padding-bottom:4px;
+    margin-left:-37px;
+    
+    position:fixed;
+    flex-shrink:0;
+    flex-wrap: nowrap;
+}
+
+li{
+    color:rgb(43, 41, 41);
+    height:30px;
+    margin:5px;
+    padding:0px;
+    padding-bottom:5px;
+    list-style-type:none; 
+    display:inline-block;
+    
+
+}
+a
+{
+    text-decoration:none;
+    color:white;
+    background-color:rgb(35, 3, 175);
+    padding:5px;
+    
+}
+a:hover{
+    background-color:darkblue;
+}
+#a4 
+{
+    width:950px;
+    text-align:center;
+    font-size:30px;
+    font-weight: bold;
+    padding-bottom:10px;
+    color:white;
+    margin-right:100px;
+}
+#txt:focus{
+    background-color:white;
+}
+#txt:hover{
+    background-color: whitesmoke;
+}
+#txt{
+    background-color:dodgerblue;
+}
+
+
+#a7{float:left;}
+#a8{float:right;}
+
+.layout-list1,.layout-list2,.layout-list3,.layout-list4,.layout-list5,.layout-list6
+    {
+        background-color: rgb(9, 188, 243);
+        text-align: center;  
+        padding-top: 20px;
+        padding-bottom: 10px;
+        align-self:flex-start;
+        margin:0;
+        margin-top:10px;
+        height:fit-content;
+        font-weight: bold;
+        width:400px;
+        border-radius: 5px;
+              
+
+    }
+    .list-card
+    {
+        background-color:white;
+        color:black;
+        margin-top: 10px;
+        margin-bottom:10px;
+        margin-left:20px;
+        margin-right: 20px;
+        text-align:center;
+        width:80%;
+        height:40px;
+        padding-top: 15px;
+        border-radius: 5px;
+               
+        
+    }
+    .layout
+    {
+        display:grid;
+        grid-template-rows:1fr;
+        grid-template-columns:repeat(6,1fr);
+        grid-gap: 10px;  
+             
+             
+    }
+    .list-card i
+    {
+        margin-left:80px;
+        border:none;
+                padding: 5px;
+                    
+    }
+    .list-card i:hover{
+        border:2px solid red;
+    }
+
+
+    button
+    {
+        background-color:transparent;
+        align-self: center;
+        border:none;
+    }
+ .modal {
+  display:none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left:0;
+  top:o;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s
+}
+
+
+
+  .modal-body
+  {
+  position: fixed;
+  bottom:0;
+  background-color: #fefefe;
+  width: 100%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s
+}
+
+
+    
+ 
+</style>
+
+
+              
+     <body style="background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTW16-mHCSrz6G6uAMbWLgeEoTscepR-p-SklefRnO4Jwu2uxX1&usqp=CAU);background-size:100% ;
+     ">
+     
+        <div class="flex-container1">
+            <ul class="one">
+                <li id="a1"><a href="#"> <i class="fa fa-home"></i></a></li>
+                <li id="a2"><a href="#"> <i class="fa fa-list-alt"></i></a></li>
+                <li class ="a3"><input type="text" id="txt" style="color:blue";/></li>
+                <li id="a4">Tralala</li>
+                 <li id="a5'"><a href="#"> <i class="fa fa-plus"></i></a></li>
+                <li id="a6"><a href="#"> <i class="fa fa-user"></i></a></li>
+
+             </ul>
+            </div>
+        <div class="flex-container2">
+            <ul class="two">
+                <li id="a7"><a href=""><label>Front-end Training</label></a></li>
+                <li id="a8"><a href=""><i class="fa fa-ellipsis-v"> Show menu</i></a></li>
+            </ul>
+        </div>
+        <div class="layout">
+           <div class="layout-list1">To Do<i class="fa fa-ellipsis-h" style="margin-left:270px";></i>
+                <div class="list-card">Learn HTML<i class="fa fa-pencil-alt"></i></div>
+                <div class="list-card">Learn CSS <i class="fa fa-pencil-alt"></i></div>
+                <div class="list-card">Learn JavaScript<i class="fa fa-pencil-alt"></i></div>
+                <button id="myBtn1" class="btn">+ Add another card</button>
+                <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                  
+                      <div class="modal-body">
+                        <p>Add title to your card</p>
+                       <div class="modal-button">
+                        <button>Add Card</button><span class="close"><i class="fa fa-times"></i></span>
+                      </div>
+                    </div>                  
+                  </div>
+                  
+            </div>
+            
+            <div class="layout-list2">Doing<i class="fa fa-ellipsis-h" style="margin-left:270px";></i>
+                <div class="list-card">Prepare resume<i class="fa fa-pencil-alt"></i></div>
+                <div class="list-card">Learning english<i class="fa fa-pencil-alt"></i></div>
+                <button id="myBtn2">+ Add another card</button>
+             </div>
+            <div class="layout-list3">Testing/Verifying<i class="fa fa-ellipsis-h" style="margin-left:270px";></i>
+                <div class="list-card">Tralala front-end<i class="fa fa-pencil-alt"></i></div>
+                <button id="myBtn3">+ Add another card</button>
+            </div>
+            <div class="layout-list4">Deploying<i class="fa fa-ellipsis-h" style="margin-left:270px";></i>
+                <div class="list-card">Tralala back-end<i class="fa fa-pencil-alt"></i></div>
+                <button id="myBtn4">+ Add another card</button>
+            </div>
+            <div class="layout-list5">Done<i class="fa fa-ellipsis-h" style="margin-left:270px";></i>
+                <div class="list-card">Front end assignments<i class="fa fa-pencil-alt"></i></div>
+                <button id="myBtn5">+ Add another card</button>
+            </div>
+            <div class="layout-list6"><button>+ Add another list</button>     
+            </div>  
+    </div>  
+    
+    </body>
+</html>
